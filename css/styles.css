@@ -194,12 +194,13 @@ img {
 .order {
   display: inline-block;
   margin-top: 30px;
-  min-width: 250px;
+  min-width: 200px;
   min-height: 50px;
   padding: 10px;
   border: 0;
   border-radius: 4px;
   background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   /*text*/
   font-weight: 700;
   font-size: 16px;
@@ -383,6 +384,9 @@ img {
   justify-content: space-between;
 }
 
+.clients li + li {
+  margin-left: 30px;
+}
 .clients a {
   display: block;
 }
@@ -435,6 +439,7 @@ img {
 .footer-addres p,
 .action p {
   color: #ffffff;
+  font-weight: 700;
 }
 
 .footer-addres p + p {
@@ -511,6 +516,7 @@ img {
   /*text*/
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* проекты */
