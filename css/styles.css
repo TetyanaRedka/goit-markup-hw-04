@@ -467,7 +467,8 @@ button {
 .icon-footer a {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.icon-footer a:hover {
+.icon-footer a:hover,
+.icon-footer a:focus {
   background-color: var(--icon-active-back-color);
 }
 .icon-footer svg {
@@ -536,9 +537,12 @@ button {
   flex-basis: calc(100% / 3 - 30px);
   background: #ffffff;
 }
+.projects-name a {
+  display: block;
+}
 
-.projects-name:hover,
-.projects-name:focus {
+.projects-name:hover a,
+.projects-name:focus a {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
